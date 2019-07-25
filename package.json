@@ -1,14 +1,16 @@
 {
   "name": "livingrosary",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "node ./backend/server.js",
   "repository": "git@github.com:agile4java/livingrosary.git",
   "author": "Chad Conway <agile4java@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0"
+    "express-handlebars": "^3.1.0",
+    "nodemon": "^1.19.1"
   }
 }
