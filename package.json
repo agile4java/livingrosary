@@ -1,7 +1,11 @@
 {
   "name": "livingrosary",
   "version": "1.0.0",
-  "main": "node ./backend/server.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
   "repository": "git@github.com:agile4java/livingrosary.git",
   "author": "Chad Conway <agile4java@gmail.com>",
   "license": "MIT",

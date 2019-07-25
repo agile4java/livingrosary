@@ -4,7 +4,7 @@ const exphbs = require('express-handlebars');
 const bodyParser = require("body-parser");
 // const mongoose = require("mongoose");
 
-const useRoutes = require("./routes/useRoutes");
+const landingRoute = require("./backend/routes/landing_route");
 
 
 const app = express();
@@ -42,11 +42,11 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/api", useRoutes);
+app.use('/', landingRoute);
 
-app.get('/', (req, res, next) => {
-    res.render('home');
-})
+// app.get('/', (req, res, next) => {
+//     res.render('home');
+// })
 
 
 
