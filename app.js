@@ -43,7 +43,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // API can use 'static'
 // app.use('public', express.static(path.join(__dirname, "/public")));
 // app.use(express.static(path.join(__dirname, "/static")));
-// app.use(express.static(path.join(__dirname, "/mdb")));
+app.use(express.static(path.join(__dirname, "/backend/mdb")));
 
 // Ref:  song940/kelp-static
 // Branch:  express-static
