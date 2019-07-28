@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 // Ref: song940/kelp-static  
 // Branch:  express-static
 const serve = require('express-static');
-// const mongoose = require("mongoose");
+
 
 const landingRoute = require("./backend/routes/landing_route");
 
@@ -22,6 +22,7 @@ app.set('view options', {
   myvar: 'hello'
 });
 
+// const mongoose = require("mongoose");
 // mongoose
 //   .connect(
 //     "mongodb+srv://max:" +
@@ -61,6 +62,8 @@ var hbs = exphbs.create({
     'views/partials/nav/',
     'views/partials/contactinfo/',
     'views/partials/landingpartials/',
+    'views/partials/lrdetailspartials/',
+    'views/partials/testimonypartials/',
     'views/partials/'
   ]
 })
