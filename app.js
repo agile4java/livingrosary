@@ -65,10 +65,10 @@ var hbs = exphbs.create({
   partialsDir: [
     'views/partials/scripts/',
     'views/partials/nav/',
-    'views/partials/contactinfo/',
-    'views/partials/landingpartials/',
-    'views/partials/lrdetailspartials/',
-    'views/partials/testimonypartials/',
+    'views/partials/contact_info/',
+    'views/partials/landing_page_sections/',
+    'views/partials/living_rosary_details_sections/',
+    'views/partials/testimony_sections/',
     'views/partials/',
     "shared/templates'"
   ]

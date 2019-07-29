@@ -5,6 +5,7 @@ exports.getLanding = (req, res, next) => {
     res.render('landing', {
         // Declaring a variable local to current view
         name: 'Landing Page',
-        layout: 'landinglayout'
+        layout: 'landinglayout',
+        letters: 'letters'
     });
 }

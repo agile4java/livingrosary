@@ -46,3 +46,20 @@
 #historydiv a:not(.collapsed):after {
     content: 'Read less...';
 }
+
+
+
+.card-author {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-parish {
+    font-size: 1.0rem;
+    font-style: italic;
+}
+
+.card-quote-regular {
+    font-size: 1.5rem;
+}
+
