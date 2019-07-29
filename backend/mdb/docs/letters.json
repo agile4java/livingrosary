@@ -1,0 +1,71 @@
+{
+    "letters": [
+        {
+            "_id": "",
+            "category": "testimony",
+            "authority": "",
+            "author": "",
+            "note": "",
+            "parish": "",
+            "quotes": [
+                "",
+                ""
+            ]
+        },
+        {
+            "_id": "londono",
+            "category": "testimony",
+            "authority": "father",
+            "author": "Fr Londono",
+            "note": "",
+            "parish": "",
+            "quotes": [
+                "in recognition and gratitude to Mr. Frank Bonack who was in our parishes this past weekend",
+                "It was a blessing to have him in this beautiful ministry",
+                "I do recommend Mr. Bonack who has so much love for the church"
+            ]
+        },
+        {
+            "_id": "manny",
+            "category": "testimony",
+            "authority": "father",
+            "author": "Rev Fr Manny Ediza",
+            "note": "",
+            "parish": "",
+            "quotes": [
+                "I find it very helpful personally because I am always busy and have no time to pray the Holy Rosary daily",
+                "with the Living Rosary that Frank and Trudy have set up in my parish I can now do it easily",
+                "puts me in solidarity with the hundreds of thousands of people in praying the Holy Rosary",
+                "Frank and Trudy were able to register more than 400 parishioners for the Living Rosary",
+                "I feel connected with other Catholics throughout the world.",
+                "Frank and Trudy are very committed, wonderful and very spiritual"
+            ]
+        },
+        {
+            "_id": "willger",
+            "category": "testimony",
+            "authority": "reverend",
+            "author": "Rev Gerard Willger",
+            "note": "",
+            "parish": "",
+            "quotes": [
+                "The parishioners and other attendants really appreciated the Living Rosary devotion.",
+                "an opportunity to grow in their spritiual lives",
+                "They felt connected with others throughout the world while praying this beautiful devotion",
+                "(Frank and Trudy) are wonderful people"
+            ]
+        },
+        {
+            "_id": "",
+            "category": "testimony",
+            "authority": "",
+            "author": "",
+            "note": "",
+            "parish": "",
+            "quotes": [
+                "",
+                ""
+            ]
+        }
+    ]
+}

@@ -3,18 +3,23 @@ const express = require("express");
 const exphbs = require('express-handlebars');
 const bodyParser = require("body-parser");
 
+const app = express();
+
 // Ref: song940/kelp-static  
 // Branch:  express-static
 const serve = require('express-static');
 
 
+
+// MODULE IMPORTS
+// const template_controller = require('./backend/controllers/template_controller');
 const landingRoute = require("./backend/routes/landing_route");
 
 
-const app = express();
+
 
 // Declare Global variables
-app.locals.site = "The Living Rosary";
+app.locals.site = "The Living Rosary Devotion";
 
 // Declare variable as view option and available
 // to any view
@@ -64,10 +69,10 @@ var hbs = exphbs.create({
     'views/partials/landingpartials/',
     'views/partials/lrdetailspartials/',
     'views/partials/testimonypartials/',
-    'views/partials/'
+    'views/partials/',
+    "shared/templates'"
   ]
 })
-
 
 // Ref:  exphbs
 // Use more than one instance of view engine each with
@@ -78,6 +83,11 @@ app.engine('handlebars', hbs.engine);
 // Setting view engine will make value the fefault file extension
 // for looking up views
 app.set('view engine', '.handlebars');
+
+// Ref: http://handlebarsjs.com/precompilation.html
+// Ref: ericf/express-handlebars/blob/master/examples/advanced/server.js (github)
+// precompile templates to send as strings to client-side
+
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -98,6 +108,8 @@ app.use('/', landingRoute);
 //     res.render('home');
 // })
 
-
-
+// Ref: https://coderwall.com/p/myzvmg/circular-dependencies-in-node-js
+// export your data before you require anything else in modules where you use module.exports
 module.exports = app;
+
+
