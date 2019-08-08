@@ -1,0 +1,62 @@
+{
+    "letters": [
+        {
+            "_id": "londono",
+            "category": "testimony",
+            "authority": "father",
+            "author": "Father Hugo Londono",
+            "note": "",
+            "parish": "St. Hyacinth & St. Vincent De Paul Parishes",
+            "church": "Prince of Peace",
+            "location": "MIlwaukee, WI",
+            "day": "26",
+            "month": "7",
+            "year": "2013",
+            "quotes": [
+                "in recognition and gratitude to Mr. Frank Bonack who was in our parishes this past weekend",
+                "It was a blessing to have him in this beautiful ministry",
+                "I do recommend Mr. Bonack who has so much love for the church"
+            ]
+        },
+        {
+            "_id": "manny",
+            "category": "testimony",
+            "authority": "father",
+            "author": "Reverend Father Manny Ediza",
+            "note": "",
+            "church": "St. Michael Catholic Church",
+            "parish": "St. Michael Parish",
+            "location": "San Diego, CA",
+            "day": "31",
+            "month": "7",
+            "year": "2015",
+            "quotes": [
+                "I find it very helpful personally because I am always busy and have no time to pray the Holy Rosary daily",
+                "with the Living Rosary that Frank and Trudy have set up in my parish I can now do it easily (pray the Holy Rosary Daily)",
+                "puts me in solidarity with the hundreds of thousands of people in praying the Holy Rosary",
+                "Frank and Trudy were able to register more than 400 parishioners for the Living Rosary",
+                "I feel connected with other Catholics throughout the world.",
+                "Frank and Trudy are very committed, wonderful and very spiritual"
+            ]
+        },
+        {
+            "_id": "willger",
+            "category": "testimony",
+            "authority": "reverend",
+            "author": "Reverend Gerard Willger",
+            "note": "",
+            "church": "Holy Rosary",
+            "parish": "Holy Rosary Catholic Parish",
+            "location": "Medford, WI",
+            "day": "26",
+            "month": "7",
+            "year": "2013",
+            "quotes": [
+                "The parishioners and other attendants really appreciated the Living Rosary devotion.",
+                "an opportunity to grow in their spritiual lives",
+                "They felt connected with others throughout the world while praying this beautiful devotion",
+                "(Frank and Trudy) are wonderful people"
+            ]
+        }
+    ]
+}
