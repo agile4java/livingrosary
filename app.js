@@ -49,12 +49,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // API can use 'static'
 // app.use('public', express.static(path.join(__dirname, "/public")));
 // app.use(express.static(path.join(__dirname, "/static")));
-app.use(express.static(path.join(__dirname, "/backend/mdb")));
+app.use(express.static(path.join(__dirname, "/assets")));
 
 // Ref:  song940/kelp-static
 // Branch:  express-static
 // express-static for serving static files
-//app.use(serve(__dirname, '/backend/mdb'));
+// app.use(serve(__dirname, '/assets'));
 //app.use(serve(__dirname, '/static'));
 
 
@@ -62,15 +62,16 @@ app.use(express.static(path.join(__dirname, "/backend/mdb")));
 
 // Ref: ericf/express-handlebars
 var hbs = exphbs.create({
+  viewsDir: 'views/pages',
   partialsDir: [
-    'views/partials/scripts/',
-    'views/partials/nav/',
-    'views/partials/contact_info/',
-    'views/partials/landing_page_sections/',
-    'views/partials/living_rosary_details_sections/',
-    'views/partials/testimony_sections/',
-    'views/partials/',
-    "shared/templates'"
+    'views/components/',
+    'views/containers/',
+    'views/layouts/',
+    'views/nav/',
+    'views/pages/',
+    'views/scripts/',
+    'views/testimony_cards/',
+    'shared/templates/'
   ]
 })
 
