@@ -13,8 +13,8 @@ const serve = require('express-static');
 
 // MODULE IMPORTS
 // const template_controller = require('./backend/controllers/template_controller');
-const landingRoute = require("./backend/routes/landing_route");
-
+const landingRoute = require("./backend/routes/landing.route");
+const testingRoute = require("./backend/routes/testing.route");
 
 
 
@@ -103,7 +103,11 @@ app.use((req, res, next) => {
   next();
 });
 
+// landing page route
 app.use('/', landingRoute);
+
+// testing page route
+app.use('/testing', testingRoute);
 
 // app.get('/', (req, res, next) => {
 //     res.render('home');

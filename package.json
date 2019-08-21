@@ -15,6 +15,7 @@
     "@angular/material": "^8.1.2",
     "body-parser": "^1.19.0",
     "connect": "^3.7.0",
+    "detect-it": "^3.0.5",
     "dotenv": "^8.0.0",
     "ejs": "^2.6.2",
     "exphbs": "^1.2.0",

@@ -11,7 +11,7 @@ exports.getLanding = (req, res, next) => {
         // Declaring a variable local to current view
         name: 'Landing Page',
         tabtitle: 'Living Rosary',
-        layout: 'landinglayout',
+        layout: 'landing.layout.handlebars',
         letters: 'letters'
     });
 }
