@@ -36,6 +36,10 @@ build/Release
 node_modules/
 jspm_packages/
 
+# ssh keys for digital ocean 
+# other private info
+PRIVATE/
+
 # TypeScript v1 declaration files
 typings/
 

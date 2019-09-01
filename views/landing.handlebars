@@ -1,6 +1,8 @@
-{{> mask }}
+{{!-- Visible partials --}}
 
-{{> video }}
+{{> mask.container }}
+
+{{> video.component }}
 
 {{> details.container }}
 
@@ -8,13 +10,11 @@
 
 {{> contactinfo.container }}
 
-{{> iconsprite }}
-
-{{> mdbscripts }}
 
 
-<hr>
-<h1>Card Test Area:</h1>
 
-<h3>v1.handlebars: </h3>
-{{> v1 }}
+{{!-- Hidden partials --}}
+
+{{> iconsprite.script }}
+
+{{> mdbscripts.script }}

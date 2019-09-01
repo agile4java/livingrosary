@@ -71,6 +71,7 @@ var hbs = exphbs.create({
     'views/pages/',
     'views/scripts/',
     'views/testimony_cards/',
+    'views/subcontactcomponents',
     'shared/templates/'
   ]
 })
