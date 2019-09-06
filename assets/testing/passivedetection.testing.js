@@ -1,6 +1,6 @@
-const detectIt = require('detect-it');
 
-exports.module = {
+
+var methods = {
 
   printDetectItVars: function (msgHeader) {
     console.log(msgHeader);
@@ -16,6 +16,7 @@ exports.module = {
 
 
   getIndividualVars: function (msgHeader) {
+    const detectIt = require('detect-it');
     var deviceType = detectIt.deviceType;
     var passiveEvents = detectIt.passiveEvents;
     var hasMouse = detectIt.hasMouse;
@@ -45,3 +46,5 @@ exports.module = {
     console.log();
   }
 }
+
+exports.data = methods;
