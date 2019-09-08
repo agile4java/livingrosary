@@ -1,16 +1,36 @@
 <div class="col-md-4 mb-1"
-    id="whyjoindiv">
+    id="joinusdiv">
     {{!-- <i class="fas fa-bicycle fa-4x orange-text"></i> --}}
-    <svg class="icon">
-        <use xlink:href="#network" />
-    </svg>
+    <div class="pb-2">
+        <svg class="icon">
+            <use xlink:href="#network" />
+        </svg>
+        <h4 class="my-4 font-weight-bold myinline">Why Join Us?</h4>
+    </div>
 
-
-
-    <h4 class="my-4 font-weight-bold">Why Join Us?</h4>
     <p class="black-text">Lorem ipsum dolor sit amet, consectetur
         adipisicing
         elit.
         Reprehenderit maiores nam, aperiam minima
         assumenda deleniti hic.</p>
+    <p class="collapse"
+        id="joinustext">
+        It's important to note that this method does not replace a class. It simply adds the
+        class, appending it to any which may already be assigned to the elements.
+
+        Before jQuery version 1.12/2.2, the .addClass() method manipulated the className
+        property of the selected elements, not the class attribute. Once the property was
+        changed, it was the browser that updated the attribute accordingly. An implication of
+        this behavior was that this method only worked for documents with HTML DOM semantics
+        (e.g., not pure XML documents).
+
+        As of jQuery 1.12/2.2, this behavior is changed to improve the support for XML
+        documents, including SVG. Starting from this version, the class attribute is used
+        instead. So, .addClass() can be used on XML or SVG documents.</p>
+    <a role="button"
+        class="collapsed"
+        data-toggle="collapse"
+        href="#joinustext"
+        aria-expanded="false"
+        aria-controls="joinustext"></a>
 </div>

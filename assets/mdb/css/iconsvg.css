@@ -1,0 +1,10 @@
+.icon {
+  display: inline;
+  height: 32px;
+  width: 32px;
+}
+.myinline {
+  display: inline;
+  line-height: 32px;
+  vertical-align: middle;
+}
