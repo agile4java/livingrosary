@@ -18,6 +18,7 @@ const testingRoute = require('./backend/routes/testing.route');
 
 // Declare Global variables
 app.locals.site = 'The Living Rosary Devotion';
+app.locals.webnote = false;
 
 // Declare variable as view option and available
 // to any view

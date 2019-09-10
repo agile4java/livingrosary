@@ -1,18 +1,11 @@
 .webnote {
-  font-size: 1em;
-  font-weight: bold;
-  font-style: italic;
-  text-align: center;
-  background-color: lime;
-  color: black;
-  border-top: 5px dotted black;
-  border-bottom: 5px dotted black;
-}
-
-.webnote_visible {
-  display: block;
-}
-
-.webnote_hite {
-  display: none;
+	font-size: 1em;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	background-color: lime;
+	color: black;
+	border-top: 5px dotted black;
+	border-bottom: 5px dotted black;
+	display: none;
 }
