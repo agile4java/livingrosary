@@ -1,9 +1,13 @@
 require('dotenv').config();
-
+const fs = require('fs');
+const { promisify } = require('util');
 const path = require('path');
 const express = require('express');
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
+const helpers = require('handlebars-helpers');
+
+const readfile = promisify(fs.readFile);
 
 const app = express();
 
@@ -22,9 +26,6 @@ app.locals.webnote = false;
 
 // Declare variable as view option and available
 // to any view
-app.set('view options', {
-	myvar: 'hello'
-});
 
 // const mongoose = require("mongoose");
 // mongoose
@@ -60,6 +61,7 @@ app.use(express.static(path.join(__dirname, '/assets')));
 var hbs = exphbs.create({
 	viewsDir: 'views/pages',
 	partialsDir: [
+		'../runkit/embed/hbs/',
 		'views/styles/',
 		'views/components/',
 		'views/containers/',
