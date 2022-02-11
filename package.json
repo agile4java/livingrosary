@@ -20,7 +20,7 @@
     "ejs": "^2.6.2",
     "exphbs": "^1.2.0",
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
+    "express-handlebars": "^5.3.1",
     "express-static": "^1.2.6",
     "handlebars-helpers": "^0.10.0",
     "nodemon": "^1.19.1"
